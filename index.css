@@ -1,0 +1,131 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  background-color: #222831 ;
+}
+/* Navbar */
+.navbar{
+	
+	color: #393E46;
+}
+.navbar-toggler{
+	color: #00ADB5;
+}
+
+.navbar-nav .nav-link, .navbar .name{
+	color: #00ADB5;
+	font-weight: bold;
+}
+
+.navbar img{
+	height: 50px;
+	width: 50px;
+
+}
+
+/* Landing */
+#landing span{
+	font-size: 5rem;
+	color:  #EEEEEE;
+	font-weight: bold;
+	
+}
+.heading-box{
+	box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.content {
+  position: relative;
+}
+#landing .btn{
+	font-weight: bold;
+}
+.waviy {
+  position: relative;
+}
+.waviy span {
+  position: relative;
+  display: inline-block;
+  font-size: 40px;
+  color: #fff;
+  text-transform: uppercase;
+  animation: flip 2s infinite;
+  animation-delay: calc(.2s * var(--i))
+}
+@keyframes flip {
+  0%,80% {
+    transform: rotateY(360deg) 
+  }
+}
+
+/* About us */
+#about{
+	background-color: #EEEEEE ;
+}
+
+#about p{
+	line-height: 2rem;
+}
+
+#about h3{
+	font-weight: 700;
+}
+
+
+/* Projects */
+#projects{
+	background-color: #222831;
+}
+#projects h3{
+	font-weight: 700;
+	color: #EEEEEE ;
+	font-size: 3rem;
+}
+.project-heading{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+}
+#projects .card-body{
+ 	background-color: #EEEEEE;
+ 	font-weight: 700;
+}
+
+.project-column{
+  padding: 3% 2%;
+}
+
+/*Contact*/
+
+#contact-me h3, #contact-me p, #contact-me label{
+	color: #EEEEEE;
+}
+#contact-me h3{
+	font-weight: 700;
+}
+#contact-me label{
+	font-weight: 700;
+}
+
+#contact-me .border{
+	border-color: #00ADB5;
+}
+
+#contact-me form{
+	text-align: left;
+}
+
+#contact-me .message{
+	min-width: 100%;
+}
+
+/*Footer*/
+
+#footer{
+	background-color: #EEEEEE 
+}
+#footer nav{
+	color: #222831;
+
+}
